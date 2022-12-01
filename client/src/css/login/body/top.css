@@ -1,0 +1,39 @@
+.loginBody-top {
+  grid-row: top;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: auto 9%;
+  grid-template-areas: "logoText logoImg";
+}
+.logoText {
+  grid-area: logoText;
+}
+.logoText p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #072218;
+}
+.logoImg {
+  grid-area: logoImg;
+  width: 100%;
+}
+@media(max-width:768px){
+  .loginBody-top{
+      width:auto;
+      height:auto;
+  }
+  .logoText p{
+      width:auto;
+      height:auto;
+      font-size:100%;
+      line-height: 120%;
+  }
+  .logoImg{
+      width:150%;
+      height:auto;
+      margin-left: -100%;
+      margin-top: 50%;
+  }
+}

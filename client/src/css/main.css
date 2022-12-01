@@ -1,0 +1,13 @@
+.awards {
+  width: 50vw;
+}
+@media (max-width: 1200px) {
+  .awards {
+    width: 90vw;
+  }
+}
+@media (max-width: 900px) {
+  .awards {
+    width: 100vw;
+  }
+}

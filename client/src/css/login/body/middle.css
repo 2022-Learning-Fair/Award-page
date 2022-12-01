@@ -1,0 +1,15 @@
+.loginBody-middle {
+  grid-row: middle;
+  margin: 20px 0;
+}
+@media(max-width:768px){
+  .loginBody-middle{
+      width:auto;
+      height:auto;
+      margin: 5% 0;
+  }
+}
+
+@import url("middle/radio.css");
+
+@import url("middle/text.css");
